@@ -12,5 +12,12 @@
   "repository": {
     "url": "https://github.com/viktor-maksimov/array-of-objects",
     "type": "git"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0"
   }
 }
