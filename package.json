@@ -6,5 +6,11 @@
   "author": "viktor-maksimov <viktor.slavov.maksimov@gmail.com>",
   "license": "MIT",
   "private": false,
-  "keywords": ["array", "object", "unique"]
+  "keywords": ["array", "object", "unique"],
+  "homepage": "https://github.com/viktor-maksimov/array-of-objects",
+  "bugs": "https://github.com/viktor-maksimov/array-of-objects/issues",
+  "repository": {
+    "url": "https://github.com/viktor-maksimov/array-of-objects",
+    "type": "git"
+  }
 }

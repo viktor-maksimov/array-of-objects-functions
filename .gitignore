@@ -1,0 +1,6 @@
+node_modules
+yarn.lock
+package-lock.json
+
+# MAC generated files
+**/.DS_Store
