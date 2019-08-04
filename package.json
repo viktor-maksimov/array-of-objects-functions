@@ -1,0 +1,10 @@
+{
+  "name": "array-of-objects",
+  "version": "0.1.0",
+  "description": "Useful functions to use with array of objects.",
+  "main": "index.js",
+  "author": "viktor-maksimov <viktor.slavov.maksimov@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "keywords": ["array", "object", "unique"]
+}
