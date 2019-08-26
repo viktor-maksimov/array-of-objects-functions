@@ -1,0 +1,8 @@
+{
+  "presets": ["@babel/preset-typescript"],
+  "plugins": ["@babel/plugin-transform-modules-umd"],
+  "filename": "array-of-objects.js",
+  "sourceFileName": "array-of-objects.ts",
+  "filenameRelative": "array-of-objects.ts",
+  "moduleRoot": "src"
+}

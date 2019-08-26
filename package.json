@@ -2,22 +2,22 @@
   "name": "array-of-objects",
   "version": "0.1.0",
   "description": "Useful functions to use with array of objects.",
-  "main": "index.js",
+  "main": "lib/array-of-objects.ts",
+  "repository": "git@github.com:viktor-maksimov/array-of-objects.git",
   "author": "viktor-maksimov <viktor.slavov.maksimov@gmail.com>",
   "license": "MIT",
   "private": false,
   "keywords": ["array", "object", "unique"],
   "homepage": "https://github.com/viktor-maksimov/array-of-objects",
   "bugs": "https://github.com/viktor-maksimov/array-of-objects/issues",
-  "repository": {
-    "url": "https://github.com/viktor-maksimov/array-of-objects",
-    "type": "git"
+  "scripts": {
+    "build": "babel --presets @babel/preset-typescript src/array-of-objects.ts -d lib"
   },
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.0.0"
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-transform-modules-umd": "^7.2.0",
+    "@babel/preset-typescript": "^7.3.3"
   }
 }
