@@ -27,7 +27,7 @@ npm install
 
 And finally you can use it in your project:
 ```
-import { getUniqueValues } from "array-of-objects"
+import { getUniqueValues } from "array-of-objects-functions"
 
 const arrayOfObjects = [
   {
