@@ -9,8 +9,13 @@
   "private": false,
   "keywords": [
     "array",
+    "objects",
+    "unique",
+    "values",
+    "property",
     "object",
-    "unique"
+    "javascript",
+    "typescript"
   ],
   "homepage": "https://github.com/viktor-maksimov/array-of-objects-functions",
   "bugs": "https://github.com/viktor-maksimov/array-of-objects-functions/issues",
