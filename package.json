@@ -1,9 +1,9 @@
 {
-  "name": "array-of-objects",
+  "name": "array-of-objects-functions",
   "version": "0.1.0",
   "description": "Useful functions to use with array of objects.",
   "main": "lib/array-of-objects.js",
-  "repository": "git@github.com:viktor-maksimov/array-of-objects.git",
+  "repository": "git@github.com:viktor-maksimov/array-of-objects-functions.git",
   "author": "viktor-maksimov <viktor.slavov.maksimov@gmail.com>",
   "license": "MIT",
   "private": false,
@@ -12,8 +12,8 @@
     "object",
     "unique"
   ],
-  "homepage": "https://github.com/viktor-maksimov/array-of-objects",
-  "bugs": "https://github.com/viktor-maksimov/array-of-objects/issues",
+  "homepage": "https://github.com/viktor-maksimov/array-of-objects-functions",
+  "bugs": "https://github.com/viktor-maksimov/array-of-objects-functions/issues",
   "contributors": [
     "Andras Serfozo <subztep@gmail.com>"
   ],
@@ -48,8 +48,8 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "jest": "^24.9.0",
+    "prettier": "^1.18.2",
     "ts-jest": "^24.0.2",
-    "typescript": "^3.6.2",
-    "prettier": "^1.18.2"
+    "typescript": "^3.6.2"
   }
 }
