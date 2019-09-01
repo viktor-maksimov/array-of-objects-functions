@@ -10,7 +10,7 @@ package.json
 ```
 {
   "dependencies": {
-    "viktor-maksimov/array-of-objects-functions": "latest"
+    "array-of-objects-functions": "latest"
   }
 }
 ```
