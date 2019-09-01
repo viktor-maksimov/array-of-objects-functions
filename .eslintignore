@@ -1,0 +1,4 @@
+# for `yarn link` development
+coverage
+node_modules
+lib

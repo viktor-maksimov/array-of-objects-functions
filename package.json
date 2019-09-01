@@ -2,22 +2,54 @@
   "name": "array-of-objects",
   "version": "0.1.0",
   "description": "Useful functions to use with array of objects.",
-  "main": "lib/array-of-objects.ts",
+  "main": "lib/array-of-objects.js",
   "repository": "git@github.com:viktor-maksimov/array-of-objects.git",
   "author": "viktor-maksimov <viktor.slavov.maksimov@gmail.com>",
   "license": "MIT",
   "private": false,
-  "keywords": ["array", "object", "unique"],
+  "keywords": [
+    "array",
+    "object",
+    "unique"
+  ],
   "homepage": "https://github.com/viktor-maksimov/array-of-objects",
   "bugs": "https://github.com/viktor-maksimov/array-of-objects/issues",
+  "contributors": [
+    "Andras Serfozo <subztep@gmail.com>"
+  ],
   "scripts": {
-    "build": "babel --presets @babel/preset-typescript src/array-of-objects.ts -d lib"
+    "build": "babel --presets @babel/preset-typescript src/array-of-objects.ts --extensions '.ts' -d ts-compiled-temp; babel --plugins @babel/plugin-transform-modules-umd ts-compiled-temp -d lib; rm -r ts-compiled-temp",
+    "check-types": "tsc",
+    "test": "yarn check-types; jest . --passWithNoTests",
+    "test:coverage": "jest . --coverage",
+    "lint": "eslint --ext .js,.ts .",
+    "lint:debug": "eslint --debug --ext .js,.ts .",
+    "lint:fix": "eslint --fix --ext .js,.ts ."
   },
   "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
     "@babel/plugin-transform-modules-umd": "^7.2.0",
-    "@babel/preset-typescript": "^7.3.3"
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/jest": "^24.0.18",
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "babel-jest": "^24.9.0",
+    "eslint": "^6.2.1",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-config-standard": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.15.1",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.6.2",
+    "prettier": "^1.18.2"
   }
 }

@@ -1,4 +1,4 @@
-export function getUniqueValues(arrayOfObjects: Object[], propertyName): Array<any> {
+export function getUniqueValues(arrayOfObjects: Record<string, any>[], propertyName: string): Array<any> {
   const output: Array<any> = []
 
   arrayOfObjects.map(obj => {
