@@ -1,9 +1,14 @@
-export function getUniqueValues(arrayOfObjects: Record<string, any>[], propertyName: string): Array<any> {
+export function getUniqueValues(
+  arrayOfObjects: Record<string, any>[],
+  propertyName: string
+): Array<any> {
   const output: Array<any> = []
 
   arrayOfObjects.map(obj => {
     if (obj[propertyName] !== undefined) {
-      if (output.find(val => JSON.stringify(obj[propertyName]) === JSON.stringify(val)) === undefined) {
+      if (
+        output.find(val => JSON.stringify(obj[propertyName]) === JSON.stringify(val)) === undefined
+      ) {
         output.push(obj[propertyName])
       }
     }
