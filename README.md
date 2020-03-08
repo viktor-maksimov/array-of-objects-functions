@@ -5,11 +5,11 @@ Useful functions to help working with Javascript Array of Objects
 <br />
 
 <a href="https://www.npmjs.com/package/array-of-objects-functions">
-  <img src="https://user-images.githubusercontent.com/15264441/76154412-cfddb180-60d3-11ea-8c90-4c3c8f21f690.png" />
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="78" height="20"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="78" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path fill="#555" d="M0 0h47v20H0z"/><path fill="#007ec6" d="M47 0h31v20H47z"/><path fill="url(#b)" d="M0 0h78v20H0z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="110"> <text x="245" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="370">license</text><text x="245" y="140" transform="scale(.1)" textLength="370">license</text><text x="615" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="210">MIT</text><text x="615" y="140" transform="scale(.1)" textLength="210">MIT</text></g> </svg>
 </a>
 
 <a href="https://www.npmjs.com/package/array-of-objects-functions">
-  <img src="https://user-images.githubusercontent.com/15264441/76154414-d0764800-60d3-11ea-8e2e-ee42b5b56e69.png" />
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="106" height="20"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="106" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path fill="#555" d="M0 0h63v20H0z"/><path fill="#4c1" d="M63 0h43v20H63z"/><path fill="url(#b)" d="M0 0h106v20H0z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="110"> <text x="325" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="530">Coverage</text><text x="325" y="140" transform="scale(.1)" textLength="530">Coverage</text><text x="835" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="330">100%</text><text x="835" y="140" transform="scale(.1)" textLength="330">100%</text></g> </svg>
 </a>
 
 ## Usage
