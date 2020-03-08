@@ -2,6 +2,16 @@
 
 Useful functions to help working with Javascript Array of Objects
 
+<br />
+
+<a href="https://www.npmjs.com/package/array-of-objects-functions">
+  <img src="https://user-images.githubusercontent.com/15264441/76154412-cfddb180-60d3-11ea-8c90-4c3c8f21f690.png" />
+</a>
+
+<a href="https://www.npmjs.com/package/array-of-objects-functions">
+  <img src="https://user-images.githubusercontent.com/15264441/76154414-d0764800-60d3-11ea-8e2e-ee42b5b56e69.png" />
+</a>
+
 ## Usage
 
 ### Install the package
