@@ -4,7 +4,7 @@
   "description": "Useful functions to use with array of objects.",
   "main": "lib/array-of-objects.js",
   "repository": "git@github.com:viktor-maksimov/array-of-objects-functions.git",
-  "author": "viktor-maksimov <viktor.slavov.maksimov@gmail.com>",
+  "author": "viktor-maksimov",
   "license": "MIT",
   "private": false,
   "keywords": [
@@ -15,7 +15,8 @@
     "property",
     "object",
     "javascript",
-    "typescript"
+    "typescript",
+    "find"
   ],
   "homepage": "https://github.com/viktor-maksimov/array-of-objects-functions",
   "bugs": "https://github.com/viktor-maksimov/array-of-objects-functions/issues",

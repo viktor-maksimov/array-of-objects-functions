@@ -35,3 +35,12 @@ describe("Get Unique Values", () => {
     expect(uniqueNames).not.toEqual(notExpectedUniqueNames)
   })
 })
+
+describe("Get Unique Values - not finding property name", () => {
+  const uniqueNames = getUniqueValues(arrayOfObjects, "address")
+  const expectedUniqueNames = []
+
+  it("Equal", () => {
+    expect(uniqueNames).toEqual(expectedUniqueNames)
+  })
+})
