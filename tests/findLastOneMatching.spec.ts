@@ -1,4 +1,4 @@
-import { findOne } from "../src/array-of-objects"
+import { findLastOneMatching } from "../src/array-of-objects"
 
 const arrayOfObjects: Record<string, any>[] = [
   {
@@ -24,8 +24,8 @@ const arrayOfObjects: Record<string, any>[] = [
   }
 ]
 
-describe("Find One - Get the only result", () => {
-  const result = findOne(arrayOfObjects, "data", {
+describe("Find Last One Matching - Get the only result", () => {
+  const result = findLastOneMatching(arrayOfObjects, "data", {
     title: "Test 1",
     description: "Lorem ipsum 1"
   })
@@ -70,8 +70,8 @@ const arrayOfObjects2: Record<string, any>[] = [
   }
 ]
 
-describe("Find One - Get the last result", () => {
-  const result = findOne(arrayOfObjects2, "data", {
+describe("Find Last One Matching - Get the last result", () => {
+  const result = findLastOneMatching(arrayOfObjects2, "data", {
     title: "Test 1",
     description: "Lorem ipsum 1"
   })

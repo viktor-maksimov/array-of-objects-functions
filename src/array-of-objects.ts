@@ -57,7 +57,7 @@ export function findLastOneMatching(
   return output
 }
 
-export function findManyMatching(
+export function findAllMatching(
   arrayOfObjects: Record<string, any>[],
   propertyName: any,
   propertyValue: any
@@ -110,7 +110,13 @@ export function removeLastOneMatching(
     }
   })
 
-  return lastOneMatchingIndex != -1 ? arrayOfObjects.splice(lastOneMatchingIndex, 1) : arrayOfObjects
+  let output = JSON.parse(JSON.stringify(arrayOfObjects))
+
+  if (lastOneMatchingIndex != -1) {
+    output.splice(lastOneMatchingIndex, 1)
+  }
+
+  return output
 }
 
 export function removeAllMatching(
