@@ -16,7 +16,8 @@
     "object",
     "javascript",
     "typescript",
-    "find"
+    "find",
+    "remove"
   ],
   "homepage": "https://github.com/viktor-maksimov/array-of-objects-functions",
   "bugs": "https://github.com/viktor-maksimov/array-of-objects-functions/issues",
