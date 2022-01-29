@@ -64,6 +64,18 @@ const uniqueNames = getUniqueValues(arrayOfObjects, "name")
 
 This function returns an array containing only the unique values of a specific property in the objects. It accepts as parameters first the ArrayOfObjects and second - a string of the property name.
 
+### findFirstOneMatching(arrayOfObjects, propertyName, propertyValue)
+
+### findLastOneMatching(arrayOfObjects, propertyName, propertyValue)
+
+### findAllMatching(arrayOfObjects, propertyName, propertyValue)
+
+### removeFirstOneMatching(arrayOfObjects, propertyName, propertyValue)
+
+### removeLastOneMatching(arrayOfObjects, propertyName, propertyValue)
+
+### removeAllMatching(arrayOfObjects, propertyName, propertyValue)
+
 ## Contribution
 
 Everybody can contribute

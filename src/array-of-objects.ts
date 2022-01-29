@@ -4,10 +4,11 @@ export function getUniqueValues(
 ): Array<any> {
   const output: Array<any> = []
 
-  arrayOfObjects.map(obj => {
+  arrayOfObjects.map((obj) => {
     if (obj[propertyName] !== undefined) {
       if (
-        output.find(val => JSON.stringify(obj[propertyName]) === JSON.stringify(val)) === undefined
+        output.find((val) => JSON.stringify(obj[propertyName]) === JSON.stringify(val)) ===
+        undefined
       ) {
         output.push(obj[propertyName])
       }
@@ -19,12 +20,12 @@ export function getUniqueValues(
 
 export function findFirstOneMatching(
   arrayOfObjects: Record<string, any>[],
-  propertyName: any,
+  propertyName: string,
   propertyValue: any
 ): Record<string, any> | null {
   let output: Record<string, any> | null = null
 
-  arrayOfObjects.some(obj => {
+  arrayOfObjects.some((obj) => {
     if (obj[propertyName] !== undefined) {
       if (JSON.stringify(obj[propertyName]) === JSON.stringify(propertyValue)) {
         output = obj
@@ -41,12 +42,12 @@ export function findFirstOneMatching(
 
 export function findLastOneMatching(
   arrayOfObjects: Record<string, any>[],
-  propertyName: any,
+  propertyName: string,
   propertyValue: any
 ): Record<string, any> | null {
   let output: Record<string, any> | null = null
 
-  arrayOfObjects.map(obj => {
+  arrayOfObjects.map((obj) => {
     if (obj[propertyName] !== undefined) {
       if (JSON.stringify(obj[propertyName]) === JSON.stringify(propertyValue)) {
         output = obj
@@ -59,12 +60,12 @@ export function findLastOneMatching(
 
 export function findAllMatching(
   arrayOfObjects: Record<string, any>[],
-  propertyName: any,
+  propertyName: string,
   propertyValue: any
 ): Record<string, any>[] {
-  let output: Record<string, any>[] = []
+  const output: Record<string, any>[] = []
 
-  arrayOfObjects.map(obj => {
+  arrayOfObjects.map((obj) => {
     if (obj[propertyName] !== undefined) {
       if (JSON.stringify(obj[propertyName]) === JSON.stringify(propertyValue)) {
         output.push(obj)
@@ -77,12 +78,12 @@ export function findAllMatching(
 
 export function removeFirstOneMatching(
   arrayOfObjects: Record<string, any>[],
-  propertyName: any,
+  propertyName: string,
   propertyValue: any
 ): Record<string, any>[] {
-  let flag: boolean = false
+  let flag = false
 
-  return arrayOfObjects.filter(obj => {
+  return arrayOfObjects.filter((obj) => {
     if (obj[propertyName] !== undefined && !flag) {
       if (JSON.stringify(obj[propertyName]) === JSON.stringify(propertyValue)) {
         flag = true
@@ -97,10 +98,10 @@ export function removeFirstOneMatching(
 
 export function removeLastOneMatching(
   arrayOfObjects: Record<string, any>[],
-  propertyName: any,
+  propertyName: string,
   propertyValue: any
 ): Record<string, any>[] {
-  let lastOneMatchingIndex: number = -1
+  let lastOneMatchingIndex = -1
 
   arrayOfObjects.map((obj, index) => {
     if (obj[propertyName] !== undefined) {
@@ -110,7 +111,7 @@ export function removeLastOneMatching(
     }
   })
 
-  let output = JSON.parse(JSON.stringify(arrayOfObjects))
+  const output = JSON.parse(JSON.stringify(arrayOfObjects))
 
   if (lastOneMatchingIndex != -1) {
     output.splice(lastOneMatchingIndex, 1)
@@ -121,10 +122,10 @@ export function removeLastOneMatching(
 
 export function removeAllMatching(
   arrayOfObjects: Record<string, any>[],
-  propertyName: any,
+  propertyName: string,
   propertyValue: any
 ): Record<string, any>[] {
-  return arrayOfObjects.filter(obj => {
+  return arrayOfObjects.filter((obj) => {
     if (obj[propertyName] !== undefined) {
       if (JSON.stringify(obj[propertyName]) === JSON.stringify(propertyValue)) {
         return false
