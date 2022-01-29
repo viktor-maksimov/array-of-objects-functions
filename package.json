@@ -1,6 +1,6 @@
 {
   "name": "array-of-objects-functions",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Useful functions to use with array of objects.",
   "main": "lib/array-of-objects.js",
   "repository": "git@github.com:viktor-maksimov/array-of-objects-functions.git",
